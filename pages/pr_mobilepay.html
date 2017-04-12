@@ -1,0 +1,498 @@
+﻿
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>移动支付_国付宝-国家级第三方支付平台</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="cms_2.1/css/common.css" rel="stylesheet" type="text/css">
+    <link href="cms_2.1/css/animate.css" rel="stylesheet" type="text/css">
+    <link href="cms_2.1/css/page.css?20170207" rel="stylesheet" type="text/css">
+    <link href="cms_2.1/css/product.css" rel="stylesheet" type="text/css">
+    <link href="cms_2.1/js/fullpage/jquery.fullPage.css" rel="stylesheet" type="text/css">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<style type="text/css">
+/* .finace-section .section1 {
+    background: url(/cms_2.1/image/jingrong/pic1.jpg) center center no-repeat;
+    background-size: cover;
+    +background: none;
+  	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
+            src='cms_2.1/image/jingrong/pic1.jpg',
+            sizingMethod='scale');
+    color: #25658d;
+}
+.finace-section .section2 {
+    background: url(/cms_2.1/image/jingrong/pic2.jpg) center center no-repeat;
+    background-size: cover;
+    +background: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
+            src='cms_2.1/image/jingrong/pic2.jpg',
+            sizingMethod='scale');
+    color: #fff;
+}
+.finace-section .section3 {
+    background: url(/cms_2.1/image/jingrong/pic3.jpg) center center no-repeat;
+    background-size: cover;
+    +background: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
+            src='cms_2.1/image/jingrong/pic3.jpg',
+            sizingMethod='scale');
+    color: #637143;
+} */
+/* .netpay .out-box2 {
+    background: url(/cms_2.1/image/pay-bg1.jpg) center center no-repeat;
+    background-size: cover;
+    +background: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
+            src='cms_2.1/image/pay-bg1.jpg',
+            sizingMethod='scale');
+}
+.netpay .out-box4 {
+    background: url(/cms_2.1/image/pay-bg3.jpg) center center no-repeat;
+    background-size: cover;
+    +background: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
+            src='cms_2.1/image/pay-bg3.jpg',
+            sizingMethod='scale');
+}
+.netpay .out-box5 {
+    min-height: 600px;
+    background: url(/cms_2.1/image/pay-bg4.jpg) no-repeat;
+    background-size: cover;
+    +background: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
+            src='cms_2.1/image/pay-bg4.jpg',
+            sizingMethod='scale');
+} */
+.netpay .out-box6 .left {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 46%;
+    height: 100%;
+    background:url(/cms_2.1/image/pay-bg5.jpg) no-repeat center left;
+    background-size:cover;
+    +background: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
+            src='cms_2.1/image/pay-bg5.jpg',
+            sizingMethod='scale');
+}
+
+.mobilepay .out-box1 .left {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 48%;
+    height: 100%;
+    background:url(/cms_2.1/image/mobile-bg1.jpg) no-repeat center right;
+    background-size:cover;
+    +background: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
+            src='cms_2.1/image/mobile-bg1.jpg',
+            sizingMethod='scale');
+}
+
+/* .mobilepay .out-box2 {
+    background: url(/cms_2.1/image/mobile-bg2.jpg) center center no-repeat;
+    background-size: cover;
+    +background: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
+            src='cms_2.1/image/mobile-bg2.jpg',
+            sizingMethod='scale');
+} */
+.mobilepay .out-box3 .left {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 50%;
+    height: 100%;
+    background: url(/cms_2.1/image/mobile-bg3.jpg) no-repeat center center;
+    background-size: cover;
+    +background: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
+            src='cms_2.1/image/mobile-bg3.jpg',
+            sizingMethod='scale');
+}
+/* .mobilepay .out-box4 {
+    background: url(/cms_2.1/image/mobile-bg4.jpg) center center no-repeat;
+    background-size: cover;
+    +background: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
+            src='cms_2.1/image/mobile-bg4.jpg',
+            sizingMethod='scale');
+}  */
+/* IE8 */
+@media \0screen {
+    /* .finace-section .section1, 
+    .finace-section .section2,
+    .finace-section .section3, */
+    .mobilepay .out-box1 .left,
+    /* .mobilepay .out-box2, */
+    .mobilepay .out-box3 .left,
+    /* .mobilepay .out-box4,
+    .netpay .out-box2,
+    .netpay .out-box4,
+    .netpay .out-box5, */
+    .netpay .out-box6 .left{
+        background: none;
+    }
+}
+
+</style>
+    <style>
+    	.mobilepay .out-box2,.mobilepay .out-box4{
+    		-ms-behavior: url(/cms_2.1/css/backgroundsize.min.htc);
+	    	 behavior: url(/cms_2.1/css/backgroundsize.min.htc);
+    	}
+    </style>
+</head>
+<body>
+<div class="page mobilepay" data-page="product" sub-page="netpay">
+    <ul class="fixed-nav">
+        <li class="">
+            <a class="icon" href="javascript:void(0)"></a>
+            <span class="txt">支付插件</span>
+        </li>
+        <li>
+            <a class="icon" href="javascript:void(0)"></a>
+            <span class="txt">WAP网银</span>
+        </li>
+        <li>
+            <a class="icon" href="javascript:void(0)"></a>
+            <span class="txt">管理平台</span>
+        </li>
+        <li>
+            <a class="icon" href="javascript:void(0)"></a>
+            <span class="txt">国付宝钱包</span>
+        </li>
+    </ul>
+    <div id="fullpage">
+        <div class="section fp-auto-height index5">
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="shortcut icon"  href="favicon.ico" mce_href="favicon.ico" type="image/x-icon">
+	
+	<header>
+    <div class="header pos_r">
+      <div class="wrapper"><a href=""><img class="logo fl" src="cms_2.1/image/new.png"></a>
+        <div class="fr headR mt-30">
+          <div class="topHead pos_r index5 clearfix_fixed"> <a class="fr topBtn ml-10" target="_blank" href="https://portal.gopay.com.cn/cust/register/toRegister.shtml?flag=corp" title="注册">注册</a> <a class="fr topBtn J-login" target="_blank" href="https://portal.gopay.com.cn/" title="用户登录">用户登录</a>
+            <ul class="fr font14">
+              <li><a class="aline a-tel iw" target="_blank" href="cms_2.1/common/contactus/contactus.html" title="获取帮助"><i class="icon icon-tel"></i>获取帮助</a></li>
+               <li><a class="aline a-qq iw" target="_blank" href="http://wpa.b.qq.com/cgi/wpa.php?ln=1&key=XzkzODAyMzg2MV8zMjA5MjJfNDAwMDU1MDAwOV8yXw" title="在线客服"><i class="icon icon-qq"></i>在线客服</a></li>
+              <li class="weixin"><a class="a-weixin iw" href="#"><i class="icon icon-weixin"></i>&nbsp;<img src="cms_2.1/image/ewm.png"> </a></li>
+              <li class="last"><a class="a-weibo iw" target="_blank" href="http://e.weibo.com/gfb0125"><i class="icon icon-weibo"></i>&nbsp;</a></li>
+            </ul>
+            
+          </div>
+          <div class="nav font18 mt-20">
+            <ul class="fr">
+              <li data-page="index"><a class="iw home" href="" title="首页"><i class="icon icon-home"></i>首页</a></li>
+              <li class="pos_r" data-page="product">
+              	<a href="javascript:void(0)">产品服务</a>
+             	<div class="navmenu navbox1 pos_a">
+             	<i></i>
+                	<div class="item">
+                        <dl>
+                            <dt><a href="productserviceV2/netpay.jhtml?page=2">网络支付</a></dt>
+                            <dd>
+                                <ul class="font14 zoom menu-list1">
+                                    <li><a href="productserviceV2/netpay.jhtml?page=2">企业网银支付</a></li>
+                                    <li><a href="productserviceV2/netpay.jhtml?page=3">个人网银支付</a></li>
+                                    <li><a href="productserviceV2/netpay.jhtml?page=4">批量付款</a></li>
+                                    <li><a href="productserviceV2/netpay.jhtml?page=5">快捷支付</a></li>
+                                    <li><a href="productserviceV2/netpay.jhtml?page=6">扫码支付</a></li>  
+                                </ul>
+                            </dd>
+                        </dl>
+                    </div>
+                    <div class="item">
+                        <dl>
+                            <dt><a href="productserviceV2/mobilepay.jhtml?page=2">移动支付</a></dt>
+                            <dd>
+                                <ul class="font14 zoom menu-list1">
+                                    <li><a href="productserviceV2/mobilepay.jhtml?page=2">移动支付插件</a></li>
+                                    <li><a href="productserviceV2/mobilepay.jhtml?page=5">国付宝钱包</a></li>
+                                    <li><a href="productserviceV2/mobilepay.jhtml?page=3">Wap网银支付</a></li>
+                                    <li class="width100"><a href="productserviceV2/mobilepay.jhtml?page=4">商户移动管理平台</a></li>
+                                </ul>
+                            </dd>
+                        </dl>
+                    </div>
+                    <div class="item iw">
+                    	<!-- <i class="icon icon-new"></i> -->
+                        <dl>
+                            <dt><a href="productserviceV2/finance.jhtml?page=2">金融服务</a></dt>
+                            <dd>
+                                <ul class="font14 zoom">
+                                    <li><a href="productserviceV2/finance.jhtml?page=2">在线供应链融资服务</a></li>
+                                    <li><a href="productserviceV2/finance.jhtml?page=3">贷后监控预警服务</a></li>
+                                    <li><a href="productserviceV2/finance.jhtml?page=4">数据融资授信服务</a></li>
+                                </ul>
+                            </dd>
+                        </dl>
+                    </div>
+                </div>
+              </li>
+              <li class="pos_r" data-page="case"><a href="cms_2.1/common/case/internetFinance.html">行业解决方案</a></li>
+              <li class="pos_r" data-page="safe"><a href="cms_2.1/common/safe/safe.html">安全中心</a></li>
+              <li class="pos_r" data-page="service"><a href="helpcenterV2/channel-7100.html">客户服务</a></li>
+              <li class="pos_r" data-page="aboutus"><a href="cms_2.1/common/aboutus/aboutus.html">关于我们</a>
+              
+              <div class="navmenu navbox2 pos_a">
+                      <i></i>
+                      <div class="item">
+                          <dl>
+                              <dt><a href="cms_2.1/common/aboutus/aboutus.html">公司简介</a></dt>
+                <dt><a href="cms_2.1/common/aboutus/events.html">大事记</a></dt>
+                <dt><a href="cms_2.1/common/partners/partners.html">合作伙伴</a></dt>
+                          </dl>
+                      </div>
+                  </div>
+              </li>
+              
+            </ul>
+            <br class="clear">
+          </div>
+          <!--nav end-->
+        </div>
+        <br class="clear">
+      </div>
+    </div>
+  </header>
+        </div>
+        <div class="section out-box1 pos_r">
+            <div class="left pos_a overHidden"></div>
+            <div class="wrapper overHidden">
+                <div class="inner">
+                    <div class="title">
+                    <input type="hidden" value="2" id="pageNum" name="2">
+                        <h3>移动支付插件(SDK、H5)</h3>
+                        <p>移动支付插件(SDK、H5)是将国付宝移动收银台以插件形式集成在商户APP中，从而完成个人消费者向商户支付的服务。个人消费者可直接输入卡面信息及安全认证信息，无须开通网银即可完成支付的服务，即快捷支付。也可登录国付宝账户使用余额或已绑定的银行卡完成支付。移动支付插件同时提供SDK原生页面和H5页面两种接入模式，商户可根据需要选择接入模式。支持国内主流银行的借记卡和信用卡。</p>
+                    </div>
+                    <div class="area">
+                        <h4>应用领域：</h4>
+                        <p>购物、服务、社交、金融理财、数字娱乐等行业。</p>
+                    </div>
+                    <div class="feature">
+                        <h4>特点：</h4>
+                        <ul>
+                            <li>商户接入方便，开发成本低</li>
+                            <li>支付流程简洁，提升用户体验</li>
+                            <li>即时到账，实时收款</li>
+                            <li>支付成功率高</li>
+                            <li>覆盖国内主流银行，实现借贷分离</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section out-box2 pos_r">
+            <div class="wrapper">
+                <div class="inner">
+                    <div class="left fl">
+                        <div class="title">
+                            <h3>Wap 网银支付</h3>
+                            <p>wap网银支付是国付宝为商户移动端收款提供的一种支付方式，个人消费者可直接登录手机版wap网上银行进行支付。目前，国付宝wap网银覆盖中国工商银行、中国建设银行、中国农业银行、中国银行、交通银行五大国有银行及主流商业银行。</p>
+                        </div>
+                        <div class="area">
+                            <h4>应用领域：</h4>
+                            <p>购物、服务、社交、金融理财、数字娱乐等行业。</p>
+                        </div>
+                        <div class="feature">
+                            <h4>特点：</h4>
+                            <ul>
+                                <li>即时到账，实时收款</li>
+                                <li>借贷分离，防止套现</li>
+                                <li>费用低廉，安全性高</li>
+                                <li>三个月内，随时退款</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+        <div class="section out-box3 pos_r">
+            <div class="left pos_a overHidden"></div>
+            <div class="wrapper overHidden">
+                <div class="inner fr">
+                    <div class="title">
+                        <h3>商户移动管理平台</h3>
+                        <p>商户移动管理平台是国付宝为企业客户提供的移动端管理后台。具有交易管理、充值、付款管理、操作员管理、安全管理等功能。企业操作员可随时随地查看账户资金、订单状态并监控账户安全。拥有扫码收款功能，实现实体商户的O2O业务模式。</p>
+                    </div>
+                    <div class="area">
+                        <h4>应用领域：</h4>
+                        <p>B2C收款、企业充值等。</p>
+                    </div>
+                    <div class="feature">
+                        <h4>特点：</h4>
+                        <ul>
+                            <li>下载安装即可使用，可移动办公</li>
+                            <li>账户资金、交易等展现清晰明了，用户体验良好</li>
+                            <li>具有手机宝令等多重安全保护机制</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section out-box4">
+            <div class="wrapper">
+                <div class="inner">
+                    <div class="left fl">
+                        <i class="bg"></i>
+                        <div class="title">
+                            <h3>国付宝钱包</h3>
+                            <p>国付宝钱包是整合了金融理财、缴费充值、O2O消费、城市信息服务等，致力于个人日常生活提供支付解决方案的APP。具备钱包类APP基础收付款功能，会陆续推出具有市场竞争力的金融理财产品。支持国内主流银行的借记卡和信用卡。</p>
+                        </div>
+                        <div class="area">
+                            <h4>应用领域：</h4>
+                            <p>金融理财、缴费充值、购物、城市信息服务、社交。</p>
+                        </div>
+                        <div class="feature pos_r">
+                            <h4>特点：</h4>
+                            <ul>
+                                <li>好友之间收付款方便，可发送多种情景红包</li>
+                                <li>个人银行卡、资金、交易展现清晰、管理方便</li>
+                                <li>金融理财产品丰富，风险低，回报率高</li>
+                                <li>生活类缴费充值产品丰富，实时完成缴费或充值</li>
+                            </ul>
+                            <div class="pos_a download" >
+                            	<img   alt="" src="cms_2.1/image/download.jpg">
+                            	<p>扫描下载国付宝钱包</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section fp-auto-height">
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<footer>
+	<div class="footer font14 pos_r">
+		<div class="wrapper zoom">
+			<div class="fl footL tc">
+				<div class="pic">
+					<a href="cms_2.0/common/aboutus/licence.html" target="_blank" title="支付业务许可证"><img src="cms_2.1/image/identy.jpg"></a>
+				</div>
+				<p>支付业务许可证</p>
+			</div>
+			<div class="zoom">
+				<div class="font16 footer1"><a class="huib6" href="cms_2.1/common/aboutus/aboutus.html">关于我们</a><em>|</em><a class="huib6" href="greenhand/cat-9081.html">新手上路</a><em>|</em><a class="huib6" href="newscenterV2.jhtml?channelIds=6052">新闻中心</a><em>|</em><a class="huib6" href="cms_2.1/common/partners/partners.html">合作伙伴</a><em>|</em><a class="huib6" href="cms_2.1/common/xieyi.html">服务协议</a><em>|</em><a class="huib6" href="jobcenterV2.jhtml">诚聘英才</a><em>|</em><a class="huib6" href="cms_2.1/common/contactus/contactus.html">联系我们</a>
+				</div>
+				<div class="footer2 mt-15">
+					&copy;2011-2017<span class="ml-10">版权所有：国付宝信息科技有限公司</span><span class="ml-10">建设运营：</span>国付宝信息科技有限公司<br>
+					网站备案号：京ICP备12041831号-1  <a style="margin-left: 10px;color: #656565;" target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010102002060"><img style="position: relative;top: 4px; margin-right: 5px;" alt="" src="cms_2.1/image/gongan.png">京公网安备  11010102002060号</a>					
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+
+
+<!-- 谷歌统计代码 -->
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-26864851-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+
+<!-- 百度统计代码 -->
+<script type="text/javascript">
+	var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://"
+			: " http://");
+	document
+			.write(unescape("%3Cscript src='"
+					+ _bdhmProtocol
+					+ "hm.baidu.com/h.js%3F820c5d1100143e292db8620975145e71' type='text/javascript'%3E%3C/script%3E"));
+</script>
+        </div>
+    </div>
+</div>
+<script src="cms_2.1/js/jquery-1.12.4.js"></script>
+<script src="cms_2.1/js/fullpage/jquery.fullPage.min.js"></script>
+<script src="cms_2.1/js/web.js?20170207"></script>
+<script src="cms_2.1/js/mobilepay.js"></script>
+</body>
+</html>
