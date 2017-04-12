@@ -1,0 +1,20 @@
+.partenerbox{ padding-top:132px; padding-bottom:170px;}
+.partenerR{width:360px; padding:51px 53px 0 125px; position:relative; margin-top:35px;}
+.partenerR i{width:362px; height:525px; background:#222933; position:absolute; top:0; right:0; z-index:0;}
+.partenerL .top{ line-height:26px;}
+.partenerL .bottom{}
+.partenerL .bottom h2{ font-size:24px;  position:relative;  line-height:60px; margin-top:30px; margin-bottom:20px;}
+.partenerL .bottom h2 span{ width:130px; padding-left:5px; }
+.partenerL .bottom h2 i{ content:""; position:absolute; left:135px; right:0; top:50%; height:1px; background:#cccdd0; z-index:1;}
+/* .partenerL .bottom .bank-box { overflow:hidden;} */
+.partenerL .bottom .bank-box span,.partenerL .bottom .bank-box em{ float:left;display:inline; margin:10px 2px; width:40px; height:40px; }
+.partenerL .bottom .bank-box em{width:76px; height:33px; margin:10px 9px;}
+.bank-box img{
+	transition: all 0.2s ease;
+}
+.bank-box em:hover img,.bank-box span:hover img{
+	transform: translateY(-10px);
+	
+}
+/* .bank-box em:hover img,.bank-box span:hover img{-webkit-animation: bounce 1s cubic-bezier(.68, .06, .68, .42) infinite alternate;
+          animation: bounce 1s cubic-bezier(.68, .06, .68, .42) infinite alternate;} */

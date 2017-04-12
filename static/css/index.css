@@ -418,12 +418,12 @@ transform: translateY(90px);
 }
 
 /*section4*/
-/* .section4{ background:#1c2229 url(../image/pic4.jpg) center center no-repeat; height:609px; padding-top:95px; background-size:cover;
+/* .section4{ background:#1c2229 url(../../static/img/pic4.jpg) center center no-repeat; height:609px; padding-top:95px; background-size:cover;
 background-attachment: fixed;
   
 +background: none;
    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
-            src='../image/pic4.jpg',
+            src='../../static/img/pic4.jpg',
             sizingMethod='scale');
 } */
 .list3{ margin-top:116px;}
