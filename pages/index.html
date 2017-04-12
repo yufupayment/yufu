@@ -1,0 +1,791 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta http-equiv="pragma" content="no-cache">
+    <meta http-equiv="Cache-Control" content="no-cache, must-revalidate">
+    <meta http-equiv="expires" content="0">
+    <meta name="renderer" content="webkit">
+    <meta charset="utf-8" />
+    <title>国付宝-国家级第三方支付平台</title>
+    <meta name="renderer" content="ie-comp">
+    <meta name="Author" content="国付宝" />
+    <meta name="Keywords" content="电子支付，第三方支付平台，移动支付，手机支付，网上支付，网络支付，快捷支付，安全支付，在线支付，安全购物，网上贸易，收款/付款，B2B/B2C" />
+    <meta name="Description" content="国付宝是唯一一家国家认证的电子支付、第三方支付平台，致力于为网上购物、B2B/B2C等网上贸易领域提供安全网络支付、移动支付服务，带给您快捷的安全购物网上支付体验。" />
+    <!--<link rel="shortcut icon"  href="favicon.ico" mce_href="favicon.ico" type="image/x-icon">-->
+    <link rel="stylesheet" href="../static/css/common.css" media="all" type="text/css">
+    <link rel="stylesheet" href="../static/css/animate.css" media="all" type="text/css">
+    <link rel="stylesheet" href="../static/css/page.css" media="all" type="text/css">
+    <link rel="stylesheet" href="../static/css/pz_dialog.css" media="all" type="text/css">
+    <link rel="stylesheet" href="../static/css/index.css" type="text/css">
+    <link rel="stylesheet" href="../static/css/micro_thickbox.css" type="text/css" />
+    <link rel="stylesheet" href="../static/css/micro_demo.css" type="text/css" />
+    <style type="text/css">
+        .section4{ background:#1c2229 url(../static/img/pic4.jpg) center center no-repeat; height:609px; padding-top:95px; background-size:cover;background-attachment: fixed;}
+        .banner .item1{background: url(../static/img/14812773766OZX.jpg) center center no-repeat; background-size: cover;  }
+        .banner .item2{background: url(../static/img/1481277364C6RN.jpg) center center no-repeat; background-size: cover; }
+        .banner .item3{background: url(../static/img/148127729591CJ.jpg) center center no-repeat; background-size: cover;  }
+        .banner .item,.section4{behavior: url(../static/img/backgroundsize.min.htc);}
+    </style>
+    <script type="text/javascript" src="../static/js/jquery-1.12.4.js"></script>
+    <!--[if lt IE 9]>
+    <script charset="utf-8" src="../static/js/html5.js"></script>
+    <![endif]-->
+    <script type="text/javascript" src="../static/js/web.js"></script>
+    <script type="text/javascript" src="../static/js/index.js"></script>
+    <script type="text/javascript" src="../static/js/pz_dialog.js"></script>
+    <script type="text/javascript" src="../static/js/loginNews.js"></script>
+    <script type="text/javascript" src="../static/js/rules.js"></script>
+    <script type="text/javascript" src="../static/js/keyboard.js"></script>
+    <script type="text/javascript" src="../static/js/cert.js"></script>
+    <script type="text/javascript" src="../static/js/loginCheckAndSubmit.js"></script>
+    <script type="text/javascript" src="../static/js/loginnew.js"></script>
+    <script type="text/javascript">
+        var enableAuthCode = "1";
+        var registerUrl = "https://portal.gopay.com.cn/cust/register/toRegister.shtml";
+        var findLoginPwdUrl = "https://portal.gopay.com.cn/cust/findloginpasswd/findloginpwdemail.shtml";
+        var enableFingerInfo = "0";
+        var authUrl='https://auth.gopay.com.cn';
+        var portalUrl='https://portal.gopay.com.cn';
+    </script>
+</head>
+<body>
+<header>
+    <div class="header pos_r">
+        <div class="wrapper">
+            <a href=""><img class="logo fl" src="../static/img/new.png"></a>
+            <div class="fr headR mt-30">
+                <div class="topHead pos_r index5 clearfix_fixed">
+                    <a class="fr topBtn ml-10" target="_blank" href="#" title="注册">注册</a>
+                    <a class="fr topBtn J-login" target="_blank" href="#" title="用户登录">用户登录</a>
+                    <ul class="fr font14">
+                        <li><a class="aline a-tel iw" target="_blank" href="#" title="获取帮助"><i class="icon icon-tel"></i>获取帮助</a></li>
+                        <li><a class="aline a-qq iw" target="_blank" href="#" title="在线客服"><i class="icon icon-qq"></i>在线客服</a></li>
+                        <li class="weixin"><a class="a-weixin iw" href="#"><i class="icon icon-weixin"></i>&nbsp;<img src="../static/img/ewm.png"> </a></li>
+                        <li class="last"><a class="a-weibo iw" target="_blank" href="#"><i class="icon icon-weibo"></i>&nbsp;</a></li>
+                    </ul>
+                </div>
+                <div class="nav font18 mt-20">
+                    <ul class="fr">
+                        <li data-page="index"><a class="iw home" href="" title="首页"><i class="icon icon-home"></i>首页</a></li>
+                        <li class="pos_r" data-page="product">
+                            <a href="javascript:void(0)">产品服务</a>
+                            <div class="navmenu navbox1 pos_a">
+                                <i></i>
+                                <div class="item">
+                                    <dl>
+                                        <dt><a href="#">网络支付</a></dt>
+                                        <dd>
+                                            <ul class="font14 zoom menu-list1">
+                                                <li><a href="#">企业网银支付</a></li>
+                                                <li><a href="#">个人网银支付</a></li>
+                                                <li><a href="#">批量付款</a></li>
+                                                <li><a href="#">快捷支付</a></li>
+                                                <li><a href="#">扫码支付</a></li>
+                                            </ul>
+                                        </dd>
+                                    </dl>
+                                </div>
+                                <div class="item">
+                                    <dl>
+                                        <dt><a href="#">移动支付</a></dt>
+                                        <dd>
+                                            <ul class="font14 zoom menu-list1">
+                                                <li><a href="#">移动支付插件</a></li>
+                                                <li><a href="#">国付宝钱包</a></li>
+                                                <li><a href="#">Wap网银支付</a></li>
+                                                <li class="width100"><a href="#">商户移动管理平台</a></li>
+                                            </ul>
+                                        </dd>
+                                    </dl>
+                                </div>
+                                <div class="item iw">
+                                    <!-- <i class="icon icon-new"></i> -->
+                                    <dl>
+                                        <dt><a href="#">金融服务</a></dt>
+                                        <dd>
+                                            <ul class="font14 zoom">
+                                                <li><a href="#">在线供应链融资服务</a></li>
+                                                <li><a href="#">贷后监控预警服务</a></li>
+                                                <li><a href="#">数据融资授信服务</a></li>
+                                            </ul>
+                                        </dd>
+                                    </dl>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="pos_r" data-page="case"><a href="#">行业解决方案</a></li>
+                        <li class="pos_r" data-page="safe"><a href="#">安全中心</a></li>
+                        <li class="pos_r" data-page="service"><a href="#">客户服务</a></li>
+                        <li class="pos_r" data-page="aboutus"><a href="#">关于我们</a>
+                            <div class="navmenu navbox2 pos_a">
+                                <i></i>
+                                <div class="item">
+                                    <dl>
+                                        <dt><a href="#">公司简介</a></dt>
+                                        <dt><a href="#">大事记</a></dt>
+                                        <dt><a href="#">合作伙伴</a></dt>
+                                    </dl>
+                                </div>
+                            </div>
+                        </li>
+
+                    </ul>
+                    <br class="clear">
+                </div>
+                <!--nav end-->
+            </div>
+            <br class="clear">
+        </div>
+    </div>
+</header>
+<div class="page page-index" data-page="index">
+    <input type="hidden" value="4" id="listSizes" name="listSizes">
+    <section>
+        <section>
+            <div class="banner pos_r">
+                <div class="item item1"></div>
+                <div class="item item2"></div>
+                <div class="item item3"></div>
+                <div class="txt-box">
+                    <span>安全 我们从未停下脚步</span>
+                    <span>每一次支付 都是无限的信任</span>
+                    <span>支付 让我们彼此相连</span>
+                </div>
+                <div class="btn-wrap pos_a">
+                    <a class="btn-login" href="javascript:;" onclick="loginin()"><i class="pos_a"></i><s class="pos_a"></s>登录</a>
+                    <a class="btn-login" href="#"><i class="pos_a"></i><s class="pos_a"></s>注册</a>
+                </div>
+            </div>
+            <div class="scrollNews font12">
+                <div class="wrapper">
+                    <dl class="zoom">
+                        <dt class="fl tc">最新公告</dt>
+                        <dd class="slideBox pos_r overHidden"></dd>
+                    </dl>
+                </div>
+            </div>
+            <!--scrollNews end-->
+        </section>
+        <section>
+            <div class="section1 show" id="section1">
+                <div class="inner pos_r">
+                    <div class="slideBox1 pos_a">
+                        <ul>
+                            <li>
+                                <h2 class="tc title pos_r" id="title"><img src="../static/img/tit1.png"></h2>
+                                <div class="newslideStage pos_a">
+                                    <div class="newslideList pos_a">
+                                        <div class="productList" data-rel="0">
+                                            <div class="item item1" id="J-item1">
+                                                <a href="#">
+                                                    <h2>跨境支付</h2>
+                                                    <div class="zoom">
+                                                        <div class="pic fl"><img src="../static/img/icon2.png"></div>
+                                                        <div class="zoom desc font16">国付宝为具有跨境结算业务需求的诸多货物贸易、服务贸易企业，提供安全、高效、便捷的跨境外汇支付及跨境人民币支付产品。</div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="item item2" id="J-item2">
+                                                <a href="#">
+                                                    <h2 class="pl-20">云账户</h2>
+                                                    <div class="zoom">
+                                                        <div class="pic fl"><img src="../static/img/icon3.png"></div>
+                                                        <div class="zoom desc font16">国付宝为企业提供的一种基于账户、在线支付、资金清结算、内部资金融通、资金计划等服务于一体的行业解决方案。</div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="item item3" id="J-item3">
+                                                <a href="#">
+                                                    <h2>国付宝钱包</h2>
+                                                    <div class="zoom">
+                                                        <div class="pic fl"><img src="../static/img/icon-pay.png"></div>
+                                                        <div class="zoom desc font16">整合了金融理财、缴费充值、O2O消费、城市信息服务等，致力于个人日常生活提供支付解决方案的APP。</div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="clear"></div>
+                                        </div>
+                                        <div class="productList newproductList" data-rel="1">
+                                            <div class="item item1" id="J-item1">
+                                                <a href="#">
+                                                    <h2>网银支付</h2>
+                                                    <div class="zoom">
+                                                        <div class="pic fl"><img src="../static/img/netpay.png"></div>
+                                                        <div class="zoom desc font16">国付宝为商户提供接受消费者使用网银进行支付的服务。支持的网银覆盖国内主流银行。</div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="item item2" id="J-item2">
+                                                <a href="#">
+                                                    <h2>快捷支付</h2>
+                                                    <div class="zoom">
+                                                        <div class="pic fl"><img src="../static/img/kuaijie.png"></div>
+                                                        <div class="zoom desc font16">国付宝为商家提供接受消费者直接输入卡面信息及安全认证信息，无须开通网银即可支付的服务，含收银台和接口模式。</div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="item item3" id="J-item3">
+                                                <a href="#">
+                                                    <h2>扫码支付</h2>
+                                                    <div class="zoom">
+                                                        <div class="pic fl"><img src="../static/img/scanQR.png"></div>
+                                                        <div class="zoom desc font16">通过国付宝网页收银台为商家提供接受个人消费者使用其手机App钱包类产品扫描二维码进行支付的服务。
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="clear"></div>
+                                        </div>
+                                        <div class="productList newproductList " data-rel="2">
+                                            <div class="item item1" id="J-item1">
+                                                <a href="#">
+                                                    <h2>wap网银</h2>
+                                                    <div class="zoom">
+                                                        <div class="pic fl"><img class="ml-20" src="../static/img/wap.png"></div>
+                                                        <div class="zoom desc font16">国付宝为商户移动端收款提供的一种支付方式，个人消费者可直接登录手机版wap网上银行进行支付。</div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="item item2" id="J-item2">
+                                                <a href="#">
+                                                    <h2>聚合支付</h2>
+                                                    <div class="zoom">
+                                                        <div class="pic fl"><img src="../static/img/juhe.png"></div>
+                                                        <div class="zoom desc font16">国付宝聚合主流支付渠道推出的创新支付产品，商户无需技术接入即可拥有收款、结算、对账一站式支付解决方案。</div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="item item3" id="J-item3">
+                                                <a href="#">
+                                                    <h2>管理平台</h2>
+                                                    <div class="zoom">
+                                                        <div class="pic fl"><img src="../static/img/pingtai.png"></div>
+                                                        <div class="zoom desc font16">国付宝为企业客户提供的移动端管理后台。具有交易管理、充值、付款管理、操作员管理、安全管理等功能。
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="clear"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="slideRel pos_a"> <a class="current" href="javascript:void(0)" rel="0"><span></span></a> <a href="javascript:void(0)" rel="1"><span></span></a> <a href="javascript:void(0)" rel="2"><span></span></a></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="pos_r zIndex5" id="bottom">
+                <section>
+                    <div class="section2 zoom" id="section2">
+                        <ul class="list2 zoom">
+                            <li class="item1">
+                                <a href="#" style="background-image: url(../static/img/148817749676VI.jpg);">&nbsp;</a>
+                                <a href="#" style="background-image: url(../static/img/1481182234L6AT.jpg);">&nbsp;</a>
+                                <a href="#" style="background-image: url(../static/img/148117918125T8.jpg);">&nbsp;</a>
+                                <a href="" style="background-image: url(../static/img/1481179305KJF6.jpg);">&nbsp;</a>
+                                <ul class="item1-nav">
+                                </ul>
+                            </li>
+                            <li class="item2 font14">
+                                <div class="desc zoom">
+                                    <div class="fl about-box">
+                                        <h3>公司简介</h3>
+                                        <div class="inner">
+                                            <p>国付宝信息科技有限公司成立于2011年1月，由国家商务部下属中国国际电子商务中心CIECC和海航集团共同发起组建。作为一家以第三方支付为基础的科技金融综合服务平台，国付宝旗下现拥有针对B2B/B2C的网络支付产品、移动支付产品、金融服务产品等，针对企业资金管理服务推出的云账户服务，针对互联网金融行业联合多家银行共同推出银行存管解决方案；针对跨境商贸领域的跨境支付解决方案；针对个人用户的手机钱包客户端等多款支付类产品，并于2011年12月22日获得央行颁发的互联网络支付、移动电话支付业务许可，2015年1月获基金支付业务许可，2016年5月获跨境人民币支付业务许可。</p>
+                                            <p>国付宝由支付行业资深管理团队管理运营，拥有技术强大的系统开发团队，实力雄厚的产品研发团队、卓越的市场开拓团队，积极开展国内外商品交易支付业务，致力于成为领先的中小微企业一站式金融服务运营商。</p>
+                                            <p>目前，国付宝总部设立于北京，并在上海、广州设有分部，国内业务辐射华北、华东、华南等全国绝大多数地区，国际业务客户以东南亚、中亚为核心覆盖全球各大洲，服务客户涵盖互联网金融、跨境商贸、电子商务、航空、旅游、物流等诸多领域。</p>
+                                        </div>
+                                        <p class="mt-15"><a class="yellow" href="#">了解更多&gt;&gt;</a></p>
+                                    </div>
+                                    <div class="fl tr iw tiyan">
+                                        <a target="_blank" href="#"><i class="icon1 icon-ty"></i>一分钱体验国付宝</a>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+                <section>
+                    <div class="section3" id="section3">
+                        <div class="wrapper pos_r zoom white font14">
+                            <div class="news-box  fl">
+                                <dl>
+                                    <dt class="pos_r"><span>Latest News</span>公司公告
+                                        <a href="#">查看更多&nbsp;&gt;&gt;</a>
+                                    </dt>
+                                    <dd>
+                                        <div class="fl news-day iw roller3d">
+                            	            <span>22<i>23</i></span>
+                                        </div>
+                                        <div class="fl news-date font12">
+                                            <div class="pos_r"><span class="month_pos">03</span><i class="pos_a"></i></div>
+                                            <p class="mt-15">2017</p>
+                                        </div>
+                                        <div class="zoom news-main">
+                                            <div class="text_ell"><a href="#" title= "关于浦发银行系统升级的公告" class="white">关于浦发银行系统升级的公告</a></div>
+                                            <div class="text_ell mt-15 white">浦发银行于3月26日凌晨3:00~4:30进行系统升级，届时电子支付业务暂停服务。请各位客户提前做好相应安排</div>
+                                        </div>
+                                    </dd>
+                                    <dd>
+                                        <div class="fl news-day iw roller3d">
+                            	            <span>14<i>15</i></span>
+                                        </div>
+                                        <div class="fl news-date font12">
+                                            <div class="pos_r"><span class="month_pos">03</span><i class="pos_a"></i></div>
+                                            <p class="mt-15">2017</p>
+                                        </div>
+                                        <div class="zoom news-main">
+                                            <div class="text_ell"><a href="#" title= "关于密码控件升级的公告 　" class="white">关于密码控件升级的公告 　</a></div>
+                                            <div class="text_ell mt-15 white">国付宝计划于2017年3月14日（星期二）对密码控件进行升级，新的密码控件将支持更多浏览器，方便您的使用。</div>
+                                        </div>
+                                    </dd>
+                                    <dd>
+                                        <div class="fl news-day iw roller3d">
+                            	            <span>13<i>14</i></span>
+                                        </div>
+                                        <div class="fl news-date font12">
+                                            <div class="pos_r"><span class="month_pos">03</span><i class="pos_a"></i></div>
+                                            <p class="mt-15">2017</p>
+                                        </div>
+                                        <div class="zoom news-main">
+                                            <div class="text_ell"><a href="#" title= "关于国付宝个人用户账户类别调整的通告" class="white">关于国付宝个人用户账户类别调整的通告</a></div>
+                                            <div class="text_ell mt-15 white">为了加强落实《非银行支付机构网络支付业务管理办法》，国付宝近期将升级用户身份认证渠道，届时部分个人用户的账户类别将受到影响。</div>
+                                        </div>
+                                    </dd>
+                                </dl>
+                            </div>
+                            <div class="news-box fl">
+                                <dl>
+                                    <dt class="pos_r"><span>Latest News</span>新闻动态
+                                        <a href="#">查看更多&nbsp;&gt;&gt;</a>
+                                    </dt>
+                                    <dd>
+                                        <div class="fl news-day iw roller3d">
+                            	            <span>16<i>17</i></span>
+                                        </div>
+                                        <div class="fl news-date font12">
+                                            <div class="pos_r"><span class="month_pos">03</span><i class="pos_a"></i></div>
+                                            <p class="mt-15">2017</p>
+                                        </div>
+                                        <div class="zoom news-main">
+                                            <div class="text_ell"><a href="#" title= "保障金融消费者权益 增强风险识别能力" class="white">保障金融消费者权益 增强风险识别能力</a></div>
+                                            <div class="text_ell mt-15 white">一直以来，金融消费者权益备受关注，用户资金安全一方面需要行业各方提升风险防范能力，另一方面，对于用户自身而言</div>
+                                        </div>
+                                    </dd>
+                                    <dd>
+                                        <div class="fl news-day iw roller3d">
+                            	            <span>22<i>23</i></span>
+                                        </div>
+                                        <div class="fl news-date font12">
+                                            <div class="pos_r"><span class="month_pos">02</span><i class="pos_a"></i></div>
+                                            <p class="mt-15">2017</p>
+                                        </div>
+                                        <div class="zoom news-main">
+                                            <div class="text_ell"><a href="#" title= "第三方支付企业进入转型期" class="white">第三方支付企业进入转型期</a></div>
+                                            <div class="text_ell mt-15 white">随着金融科技的不断发展，第三方支付行业已经进入一个高速的发展期，2016年行业增速超过50%，移动支付增速超过100%。</div>
+                                        </div>
+                                    </dd>
+
+                                    <dd>
+                                        <div class="fl news-day iw roller3d">
+                            	            <span>22<i>23</i></span>
+                                        </div>
+                                        <div class="fl news-date font12">
+                                            <div class="pos_r"><span class="month_pos">01</span><i class="pos_a"></i></div>
+                                            <p class="mt-15">2017</p>
+                                        </div>
+                                        <div class="zoom news-main">
+                                            <div class="text_ell"><a href="#" title= "国付宝鲁洪毅：支付需要多元化发展" class="white">国付宝鲁洪毅：支付需要多元化发展</a></div>
+                                            <div class="text_ell mt-15 white">去年以来，随着监管层对支付行业监管逐步收紧、逐渐趋严，行业竞争愈发激烈，越来越多的支付企业开始拓宽其业务范围，以在红海市场中赢得一席之地。</div>
+                                        </div>
+                                    </dd>
+                                </dl>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <div class="section4" id="section4">
+                        <div class="wrapper tc">
+                            <div class="tc"><img src="../static/img/tit2.png"></div>
+                            <h2>商户接入</h2>
+                            <ul class="list3 clearfix_fixed active pos_r">
+                                <li class="first">
+                                    <div class="pic iw"><i class="icon1 step1"></i></div>
+                                    <div class="desc tc">注册国付宝账户<br>
+                                        填写注册信息</div>
+                                    <div class="arr arr1 pos_a"></div>
+                                </li>
+                                <li>
+                                    <div class="pic iw"><i class="icon1 step2"></i></div>
+                                    <div class="desc tc">查收激活邮件<br>
+                                        根据邮件操作</div>
+                                    <div class="arr arr2 pos_a"></div>
+                                </li>
+                                <li>
+                                    <div class="pic iw"><i class="icon1 step3"></i></div>
+                                    <div class="desc tc">提交相关资质<br>
+                                        完成资质审核</div>
+                                    <div class="arr arr3 pos_a"></div>
+                                </li>
+                                <li>
+                                    <div class="pic iw"><i class="icon1 step4"></i></div>
+                                    <div class="desc tc">进行技术对接<br>
+                                        开通商户服务</div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <div class="section5 section3" id="section5">
+                        <div class="wrapper zoom">
+                            <div class="news-box fl">
+                                <dl>
+                                    <dt class="hui333">部分合作银行</dt>
+                                    <dd>
+                                        <div class="bank-box">
+                                            <span><img title="中国银行" src="../static/img/1481267277RP4A.png"></span>
+                                            <span><img title="农业银行" src="../static/img/14812672869PP8.png"></span>
+                                            <span><img title="工商银行" src="../static/img/1481267295RGV1.png"></span>
+                                            <span><img title="建设银行" src="../static/img/1481267308D7E2.png"></span>
+                                            <span><img title="交通银行" src="../static/img/14812673176PFF.png"></span>
+                                            <span><img title="招商银行" src="../static/img/1481267331N7CR.png"></span>
+                                            <span><img title="民生银行" src="../static/img/1481267342CFW6.png"></span>
+                                            <span><img title="邮储银行" src="../static/img/1481267350ETJF.png"></span>
+                                            <span><img title="光大银行" src="../static/img/1481267365XQC3.png"></span>
+                                            <span><img title="浦发银行" src="../static/img/1481267379QN8Q.png"></span>
+                                            <span><img title="中信银行" src="../static/img/1481267395M6HP.png"></span>
+                                            <span><img title="平安银行" src="../static/img/14812674133XRY.png"></span>
+                                            <span><img title="兴业银行" src="../static/img/1481267554LD9T.png"></span>
+                                            <span><img title="广发银行" src="../static/img/1481267574KG52.png"></span>
+                                            <span><img title="华夏银行" src="../static/img/14812676129Z3A.png"></span>
+                                            <span><img title="北京银行" src="../static/img/1481267633X2FQ.png"></span>
+                                            <span><img title="上海银行" src="../static/img/1481267659OUOK.png"></span>
+                                            <span><img title="天津银行" src="../static/img/1481267717OYD7.png"></span>
+                                            <span><img title="宁波银行" src="../static/img/1481267695X2QO.png"></span>
+                                            <span><img title="南京银行" src="../static/img/148126775582HI.png"></span>
+                                        </div>
+                                    </dd>
+                                </dl>
+                            </div>
+                            <div class="news-box fl">
+                                <dl>
+                                    <dt class="hui333">部分合作客户</dt>
+                                    <dd>
+                                        <div class="bank-box">
+                                            <em><img title="海南航空" src="../static/img/148126796521H8.png"></em>
+                                            <em><img title="翼龙贷" src="../static/img/1481253722NIDD.png"></em>
+                                            <em><img title="投之家" src="../static/img/1481253780Q1DO.png"></em>
+                                            <em><img title="共信赢" src="../static/img/1481253806OFJW.png"></em>
+                                            <em><img title="小笨鸟" src="../static/img/1481253846RVJR.png"></em>
+                                            <em><img title="中国诚商网" src="../static/img/1481253875L1WZ.png"></em>
+                                            <em><img title="亚欧国际物资贸易交易平台" src="../static/img/1481253900W3E1.png"></em>
+                                            <em><img title="中国供销合作社" src="../static/img/1481253920FXXV.png"></em>
+                                            <em><img title="北京航天航空大学" src="../static/img/1481253946NVP2.png"></em>
+                                            <em><img title="龙源期刊" src="../static/img/1481253963L5JZ.png"></em>
+                                        </div>
+                                    </dd>
+                                </dl>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </section>
+    </section>
+</div>
+<div id="topList" style="display:none;">
+    <ul class=" slideList1 pos_a">
+        <li>
+            <i></i>
+            <div class="fl text_ell">[03-23]<a href="#" title= "关于浦发银行系统升级的公告" class="bold ml-5 a-blue">关于浦发银行系统升级的公告</a></div>
+            <a href="#" class="a-hui fl ml-5">查看更多>></a>
+        </li>
+        <li>
+            <i></i>
+            <div class="fl text_ell">[03-15]<a href="#" title= "关于密码控件升级的公告" class="bold ml-5 a-blue">关于密码控件升级的公告 　</a></div>
+            <a href="#" class="a-hui fl ml-5">查看更多>></a>
+        </li>
+        <li>
+            <i></i>
+            <div class="fl text_ell">[03-14]<a href="#" title= "关于国付宝个人用户账户类别调整的通告" class="bold ml-5 a-blue">关于国付宝个人用户账户类别调整的通告</a></div>
+            <a href="#" class="a-hui fl ml-5">查看更多>></a>
+        </li>
+
+        <li>
+            <i></i>
+            <div class="fl text_ell">[02-24]<a href="#" title= "关于上海银行系统升级的公告" class="bold ml-5 a-blue">关于上海银行系统升级的公告</a></div>
+            <a href="#" class="a-hui fl ml-5">查看更多>></a>
+        </li>
+    </ul>
+</div>
+<footer>
+    <div class="footer font14 pos_r">
+        <div class="wrapper zoom">
+            <div class="fl footL tc">
+                <div class="pic">
+                    <a href="#" target="_blank" title="支付业务许可证"><img src="../static/img/identy.jpg"></a>
+                </div>
+                <p>支付业务许可证</p>
+            </div>
+            <div class="zoom">
+                <div class="font16 footer1">
+                    <a class="huib6" href="#">关于我们</a><em>|</em>
+                    <a class="huib6" href="#">新手上路</a><em>|</em>
+                    <a class="huib6" href="#">新闻中心</a><em>|</em>
+                    <a class="huib6" href="#">合作伙伴</a><em>|</em>
+                    <a class="huib6" href="#">服务协议</a><em>|</em>
+                    <a class="huib6" href="#">诚聘英才</a><em>|</em>
+                    <a class="huib6" href="#">联系我们</a>
+                </div>
+                <div class="footer2 mt-15">
+                    &copy;2011-2017<span class="ml-10">版权所有：国付宝信息科技有限公司</span><span class="ml-10">建设运营：</span>国付宝信息科技有限公司<br>网站备案号：京ICP备12041831号-1
+                    <a style="margin-left: 10px;color: #656565;" target="_blank" href="#">
+                    <img style="position: relative;top: 4px; margin-right: 5px;" alt="" src="../static/img/gongan.png">京公网安备  11010102002060号</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<div id="loginDiv" style="display: none;">
+    <div class="loginbox pos_r"  >
+        <form id="fm1" action="#" method="post" >
+            <input type="hidden" name="ctx" id="ctx" value="">
+            <input type="hidden" name="password" id="password">
+            <input type="hidden" name="network" id="local_network" value="" />
+            <input type="hidden" name="disk" id="local_disk" value="" />
+            <input type="hidden" name="cpu" id="local_cpu" value="" />
+            <input type="hidden" name="hardList" id="local_hardList" value="" />
+            <!-- add by liuyu 20170203,新密码控件 end -->
+
+            <h2>用户登录</h2>
+            <ul class="loginsel hui000 pos_a tc">
+                <li class="cursor_p current" id="businessClient">企业用户</li>
+                <li class="cursor_p" id="personalClient">个人用户</li>
+            </ul>
+            <div class="pgweb-tabs">
+
+                <div class="item mt-25" >
+                    <div class="tr font14  J_personal" style="display:none;" id="persTopLinkPanel">
+                        <li id="smsLoginOption"><span><a href="javascript:aSms_click()" class="dis_inline-block iw login-type"><i class="icon-job icon-msg"></i>短信快捷登录</a></span></li>
+                        <li id="returnOrdinaryOption" style="display:none;"><span><a href="javascript:aSmsReturn_click()" class="dis_inline-block iw login-type"><i class="icon-job icon-person"></i>普通登录</a></span></li>
+                    </div>
+                    <ul class="loginlist font16 clearfix_fixed">
+                        <li>
+                            <label><em>输入用户名</em>
+                                <input class="inp1" type="text" id="username" name="username" onblur="username_change();">
+                            </label>
+                            <div class="errtips" id="nameerr">请输入用户名</div>
+                        </li>
+                        <li class="customlabel" id="operatorId" style="z-index:9999;">
+                            <div class="seldown-box fl pos_r">
+                                <label class="iw"><i class="icon-job icon-seldown"></i>
+                                    <input class="inp1 cursor_d yzminp J-seldown" onfocus="this.blur();" value="管理员" readonly type="text">
+                                    <input type="hidden" id="oprSelect" name="oprSelect" value="1">
+                                </label>
+                                <div class="menu pos_a" style="display:none;z-index:9999;">
+                                    <p data-val="1">管理员</p>
+                                    <p data-val="2">财务员或业务员</p>
+                                    <iframe></iframe>
+                                </div>
+                            </div>
+                            <div class="msgbox fr pos_r J-id" style="display:none;" id="oprs">
+                                <label><em>ID</em>
+                                    <input class="inp1" type="text" id="opr" name="opr" onblur="username_change();">
+                                </label>
+                            </div>
+                            <br class="clear">
+                            <div class="errtips"  id="oprerr" style='display:none;'>请输入ID</div>
+                        </li>
+
+                        <input type="hidden" id="oprId" name="oprId">
+                        <input type="hidden" id="casLT" name="lt" value="" />
+                        <input type="hidden" id = "userType" name="userType" value="20" />
+                        <input type="hidden" name="clientIp" value="222.128.33.210" />
+                        <input type="hidden" id="sessionId" name="sessionId" value="" />
+                        <input type="hidden" name="_eventId" value="submit" />
+                        <input type="hidden" id="fingerInfo" name="fingerInfo" />
+                        <input type="hidden" id="pwdToken" name="pwdToken" />
+                        <li class="pwdlabel" id="passwordLi">
+                            <div class="pwd-box" >
+                                <label>
+                                    <span id="passwdDiv"></span><span id="passwordTip"></span>
+                                </label>
+                            </div>
+                            <div class="errtips" id="errmsg">此ID为管理员ID</div>
+                        </li>
+                        <li class="msglabel" style="display:none;" id="verifyCodeLi">
+                            <label class="fl"><em>输入短信码</em>
+                                <input class="inp1 yzminp" type="text" name="verifyCode" id="verifyCode">
+                            </label>
+                            <div class="msgbox fr tc"> <a id="getVerifyCodeButton" class="btn-getyzm J-getyzm dis_block" href="javascript:getVerifyCode()">获取短信验证码</a> <a class="timedown dis_block J-timedown"  style="display:none;" href="javascript:void(0)"><span class="time">60</span>S后重新发送</a> </div>
+                            <br class="clear">
+                            <div class="errtips" id="smsErrmsg"></div>
+                        </li>
+                        <li id="tokenCodeLi">
+                            <label><em>动态口令</em>
+                                <input class="inp1" type="text" name="tokenCode" id="tokenCode" maxlength="6" />
+                            </label>
+                            <div class="errtips" id="tokenErrmsg" style="display:none"></div>
+                        </li>
+
+                        <li>
+                            <label class="fl"><em>输入验证码</em>
+                                <input class="inp1 yzminp" type="text" id="authCode" name="authCode">
+                            </label>
+                            <div class="msgbox fr tc"> <a class="timedown dis_block iw" href="javascript:void(0)"><img class="verticalTop" style="cursor:pointer" title="刷新验证码" alt="刷新验证码" name="authCodeImg" id="authCodeImg" src="https://auth.gopay.com.cn/randomcode.jpg?timestamp=1491875073139" onclick="refreshCheckCode();"><!-- <i class="icon-job icon-refresh"></i> --></a>
+                                <img style="position: absolute; left: 110px; top: 5px; display: none;" id="tipsErrorImg" src="../static/img/tips_error.gif" alt="错误">
+                                <img style="display:none;position:absolute;left:110px;top:5px" id="tipsSuccessImg" src="../static/img/tips_success.gif" alt="正确">
+                            </div>
+                            <br class="clear">
+                            <div class="errtips" id="authCodeMsg"></div>
+                        </li>
+                    </ul>
+                    <div class="poplogin">
+                        <div class="confirm" id="loginBtn"><i class="before"></i><em id="buttonTxt">确定</em><s class="after"></s></div>
+                    </div>
+                </div>
+            </div>
+            <div class="other-business font14">
+                <div class="mt-10"><a class="hui666" id="registerUrlHref" href="#">注册</a><em class="ml-5 mr-5">|</em><a class="hui666" target="_blank" id="findLoginPwdUrlHref" href="#">忘记密码</a><em class="ml-5 mr-5">|</em><a id="microdoneHref" class="hui666" href="">下载安全控件3.0</a></div>
+            </div>
+        </form>
+    </div>
+</div>
+<!-- add by liuyu, 20170203, microdone新密码控件start ----->
+<script type="text/javascript">
+    var CTX = "";
+</script>
+
+<script type="text/javascript">
+    var bgPath = "url(/img/bg.gif)";
+    var bg1Path = "url(/img/bg1.gif)";
+    var sKey = "92860037955603060895359324301979";
+    var enStr = "TfKoakxTVUqNR4kmIkAQqzhNCsi7hyxEA1iJTjAsTgg=";
+</script>
+<script type="text/javascript" src="../static/js/crypto-js.js"></script>
+<script type="text/javascript" src="../static/js/PassGuardCtrl.js"></script>
+<script type="text/javascript" src="../static/js/thickbox.js"></script>
+<script type="text/javascript" src="../static/js/micro.js"></script>
+
+<script type="text/javascript">
+    var data = $("#loginDiv").html();
+    $("#loginDiv").html("");
+    function loginin(){
+        var pop=new PZ_Dialog({
+            width:530,		//可选参数，可以自由配置对话框的尺寸
+            height:540,       //可选参数，可以自由配置对话框的尺寸
+            text:"  ",//可选参数，对话框的标题
+            tipsText:data,//对话框提示内容
+            mask:0.4,     //开起遮罩，并且设置遮罩的透明度
+            isDrag:false,//是否可以拖动
+            callback:function(){
+                //alert(222)
+            }
+        });
+        //public.changeUser();
+        //public.selType();
+        corpTab_clicks();
+        $("#registerUrlHref").attr("href",registerUrl+"?flag=corp");
+        $("#findLoginPwdUrlHref").attr("href",findLoginPwdUrl+"?flag=corp");
+        $("#businessClient").click(corpTab_clicks);
+        $("#personalClient").click(persTab_clicks);
+        $.ajaxSetup({ cache: false });
+        //密码控件
+
+        //modify by liuyu， 20170203， microdone新密码控件start----->
+        //pwdCtrl=new PwdControl("password","passwdDiv",404,47,null);
+        //获取密码控件uuid
+        //getPwdUUID();
+        pgeditor.pgInitialize();//初始化控件
+        $("#passwdDiv").html(pgeditor.load());
+        $("#microdoneHref").attr("href",pgeditor.getDownUrl());
+        //modify by liuyu， 20170203，microdone新密码控件end----->
+
+        //获取CAS的lt
+        getCasLT();
+        //点击确定执行关闭
+        $(".confirm").click(function(){
+            if($(this).hasClass("hasclicked"))
+                return;
+            //pop.closeDialog();
+            if(submitForm()){
+                doCheckAuthCode();
+            }
+        })
+        //输入框清除错误提示及输入提示
+        $(".inp1").on("focus",function(){
+            var obj = $(this).siblings("em");
+            var errtips = $(this).closest("li").find(".errtips");
+            obj.hide();
+            errtips.html("");
+        }).on("blur",function(){
+            var val = $(this).val();
+            if(val == ''){
+                var obj = $(this).siblings("em");
+                obj.show();
+            }
+
+        })
+        $(".J-seldown").on("click",function(){
+            $(".seldown-box .menu").toggle();
+        })
+        $(".seldown-box").mouseleave(function(){
+            $(".seldown-box .menu").hide();
+        })
+        $(".seldown-box .menu p").on("click",function(){
+            var html = $(this).html();
+            $(".J-seldown").val(html);
+            $(".seldown-box .menu").hide();
+            var index = $(this).index();
+            if(index == 0){
+                $(".J-id").hide();
+                $("#oprSelect").val("1");
+                $("#oprId").val("999");
+                $("#oprerr").text("").hide();
+                //alert($("#oprSelect").val());
+            }else{
+                $("#oprs").show();
+                $("#opr").show();
+                $("#oprSelect").val("2");
+                $("#oprId").val("");
+                $("#oprerr").text("").hide();
+                //alert($("#oprSelect").val());
+            }
+        })
+
+    }
+    $(function(){
+        //首页图片动画
+        $(".banner img").addClass("active");
+
+        var month = ["Jan", "Feb", "Mar", "Apr", "May", "June", "July", "Aug", "Sept", "Oct", "Nov", "Dec"];
+
+        $(".month_pos").each(function () {
+            var months = Number($(this).text());
+            for (var i = 1; i <= month.length;i++) {
+                if (i == months) {
+                    $(this).text(month[i-1]);
+                    //alert($(this).text());
+                }
+            }
+        });
+        var listSizes = $("#listSizes").val();
+        var liHtml = '';
+        for(var i=0;i<listSizes;i++){
+            if(i == 0){
+                liHtml = '<li class="current"></li>';
+            }else{
+                liHtml += '<li></li>';
+            }
+        }
+        $(".item1-nav").append(liHtml);
+    });
+</script>
+</body>
+</html>

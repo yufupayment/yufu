@@ -1,0 +1,106 @@
+.J_PZDialog_mask{ display:none;background:#000; opacity:0.3;filter:alpha(opacity=30);position:fixed;_position:absolute;left:0;top:0; z-index:3333;}
+.J_PZDialog{ position:fixed;_position:absolute; z-index:4444; background:#fff; left:50%; top:50%; display:none;/*border: 1px solid #000;*/ }
+.popHd{  line-height:64px;height:64px; font-size:18px; padding-left:30px; border: none;}
+.icon-popClose{ width:31px; height:31px; background-position:-70px -159px; right:21px; top:50%; margin-top:-15px; cursor:pointer;}
+.icon-popClose:hover{ background-position:-97px -161px;}
+.icon_close {
+  position: absolute;
+  top: 11px;
+  right: 11px;
+  width: 20px;
+  height: 20px;
+  background: url(../img/job_icon.png) -143px -5px no-repeat; cursor:pointer;
+  z-index: 111;
+}
+.icon_close:hover{ background-position:-143px -28px;}
+.dialog .confirm,.poplogin .confirm{
+  position: relative;
+  z-index: 1;
+  margin: 37px auto 0;
+  width: 310px;
+  height: 38px;
+  line-height: 38px;
+  text-align: center;
+  font-size: 18px;
+  color: #fff;
+  cursor: pointer;
+}
+.dialog .confirm .before,.poplogin .confirm .before {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -2;
+  width: 310px;
+  height: 38px;
+  background: #ac8538;
+  opacity: .6;
+  filter: alpha(opacity=60);
+}
+.dialog .confirm .after,.poplogin .confirm .after {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  width: 0;
+  height: 38px;
+  background: #ac8538;
+  -webkit-transition: width .3s;
+          transition: width .3s;
+}
+.dialog .confirm:hover .after ,.poplogin .confirm:hover .after{
+  width: 310px;
+}
+
+.J_PZDialog_content{ min-height:30px;background:#FFF;color:#666; padding:10px; font-size:12px; overflow:hidden; zoom:1; line-height:180%;}
+.J_PZDialog_content .dialog_alert_tips{ min-height:21px; line-height:21px;text-indent:10px;margin-bottom:10px;}
+.J_PZDialog_content .dialog_alert_tips input{width:160px;height:20px;text-indent:3px;line-height:20px;border:1px solid #ccc; outline:none;overflow:hidden; resize:none;*width:160px;*margin-left:7px;font-size:12px;color:#666;}
+.J_PZDialog_content .dialog_btn_box{ overflow:hidden;zoom:1;}
+.J_PZDialog_content .dialog_btn_box .dialog_btn_inner{height:26px;width:140px; padding-left:5px; margin:0 auto;}
+.J_PZDialog_content .dialog_alert_btn{width:60px;cursor:pointer; background:#CCC;padding:2px; margin:0 auto;}
+.J_PZDialog_content .dialog_alert_btn div{height:20px; border:1px solid #999;background:#eee; line-height:20px; text-align:center;}
+.J_PZDialog_content .dialog_btn_box .dialog_alert_btn{margin: inherit;float:left; margin-right:5px;}
+.J_PZDialog_content  .dialog_alert_btn:hover div{border-color:#666;color:#000;}
+
+.J_PZDialogLogin{background:#f2f5fa;}
+.J_PZDialogLogin .popHd{ background:#ebebeb; text-align:center;}
+/*login*/
+.loginbox{ width:404px; margin:-25px auto 0 auto;}
+.loginbox h2{ font-size:30px; color:#ac8538; line-height:40px; height:40px;}
+.loginsel{ left:132px; top:3px;}
+.loginsel li{ float:left; width:112px; line-height:35px; height:35px; background:#fff; border-radius:16px;}
+.loginsel li.current{ background-color:#e6d7ba;}
+.loginlist{ color:#ccc; +padding-bottom:25px;}
+.loginlist li{*float:left; position:relative; width:100%; margin-bottom:25px;line-height:45px;}
+.loginlist li  em{ position:absolute; left:25px; top:0; color:#ccc; cursor:auto;}
+.inp1{ width:377px; height:19px; padding:13px 0 13px 25px; border:1px solid #cdcdcd;font-size:16px;}
+.yzminp{width:180px;}
+.msgbox{ width:185px; height:47px;}
+.msgbox img{display:block;width:185px; height:47px;}
+.btn-getyzm{width:183px; height:45px; background:#e6d7ba; border:1px solid #ccc; color:#ac8538;}
+.btn-getyzm:hover{ text-decoration:underline;color:#ac8538;}
+.timedown,.timedown:hover{ width:183px; height:45px; background:#f1f1f1; color:#999;border:1px solid #ccc;}
+.icon-job{ background:url(../img/job_icon.png) no-repeat;}
+.icon-refresh{width:18px; height:18px; background-position:-35px -188px; right:10px; top:50%; margin-top:-9px;}
+.icon-person{ width:13px; height:13px; background-position:-9px -188px; left:0; top:50%; margin-top:-6px;}
+.icon-msg{width:10px; height:13px; background-position:-126px -190px; left:0; top:50%; margin-top:-6px;}
+.login-type{ height:30px; line-height:30px; padding-left:13px; color:#000;}
+.login-type:hover{ color:#ac8538;}
+.poplogin .confirm,.poplogin .confirm .before{ margin:0; width:404px; height:47px; line-height:47px;}
+.poplogin .confirm .after {height:47px;}
+.poplogin .confirm:hover .after {
+  width: 404px;height:47px;
+}
+.other-business li a{ display:inline-block; height:20px;line-height:20px; padding-left:17px;}
+.icon-p,.icon-g{ width:18px; height:20px; background-position:-66px -186px; left:0; top:-1px;}
+.icon-g{ background-position:-87px -186px;}
+.errtips{ position:absolute; left:0; bottom:-20px; color:#c00; line-height:20px; font-size:12px; }
+.icon-seldown{width:13px; height:8px; background-position:-107px -193px; right:16px; top:50%; margin-top:-4px;}
+.cursor_d{ cursor:default;}
+.msgbox .inp1{width:158px;}
+.menu{ height:90px; width:205px; line-height:45px; background:#fff; left:0; top:45px; border:1px solid #ccc; border-right:none;color:#333; z-index:11;}
+.menu p{ padding-left:25px;border-right:1px solid #ccc; }
+.menu p:hover{ background:#f1f1f1; cursor:default;}
+.menu iframe{margin:0;padding:0;width:205px;height:90px; left:0;top:0;z-index:-1;position:absolute;border:0;}
+.loginlist li .pwd-box em{z-index:11;width:380px;padding-left:25px;left:0;}
+.pwd-box{height:47px;}
+.pwd-box iframe{margin:0;padding:0;width:400px;height:45px; left:1px;top:1px;z-index:-1;position:absolute;border:0;}
