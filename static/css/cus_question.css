@@ -1,0 +1,130 @@
+.qs1{ background:#cdb777;/*#bfa559;*/ color:#fff; border-bottom:1px solid #e3ddca; min-width:1200px; z-index:3;}
+.qs2{ background:#fff; min-width:1200px;}
+.qs1 .inner,.qs2 .inner{ margin-left:350px;}
+.qs1 h2{ font-size:50px; line-height:80px; margin-bottom:35px;}
+.qs1 .inner{ padding:80px 0 34px 0;}
+.qs1 .qsinner{padding-top:60px;}
+
+.s-inp{width:380px; height:18px; line-height:18px; color:#6d5200; padding:12px 10px; border:1px solid #ac9553; font-size:16px; background:#ebe2c9;}
+.s-btn{ position:relative;width:92px; height:42px; line-height:42px; font-size:16px; color:#6d5200; background:#e1d4af;border:1px solid #ac9553;text-align:center;}
+
+.btn{ display:block; position:relative; z-index:2; cursor: pointer;}
+
+.s-btn i,
+.s-btn s {
+  box-sizing: border-box;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+.s-btn i {
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 42px;
+  background: #ac8538;
+  z-index: 1;
+}
+.s-btn:hover {
+  color: #ffecb6;
+}
+.s-btn:hover i {
+  width: 92px;
+}
+.s-btn:active {
+  background: #ac8538;color: #ffecb6;
+}
+
+.s-inp:-moz-placeholder { /* Mozilla Firefox 4 to 18 */ color: #a88519; } 
+.s-inp::-moz-placeholder { /* Mozilla Firefox 19+ */ color: #a88519; } 
+input.s-inp:-ms-input-placeholder, textarea:-ms-input-placeholder { color: #a88519; } 
+input.s-inp::-webkit-input-placeholder, textarea::-webkit-input-placeholder { color: #a88519; }
+.tel-box{width:197px; padding-left:47px; margin-top:-5px; +margin-top:-25px}
+.tel-box > p{ font-size:22px;}
+.icon-custom{width:47px; height:41px; background-position:-73px -68px; left:0; top:50%; margin-top:-20px;}
+.qs2 .itembox{padding-top:40px; padding-bottom:160px;
+    overflow: hidden; }
+.qs2 .itembox > div{margin:0 -27px;}
+.qs2 .item{ float:left; width:50%; margin-top:20px;}
+.qs2 .itembox .item{height:206px;}
+.qs2 .itembox .itemin{padding:0 27px;}
+.qs2 .item h2{ font-size:28px; line-height:60px; border-bottom:1px solid #a2a2a2; margin-bottom:15px; padding:5px 0;}
+.qs2 .item li{ line-height:30px; height:30px; position:relative; padding-left:18px;display:block;word-break:break-all;white-space:nowrap; text-overflow:ellipsis; overflow:hidden;*background:url(../image/dot2.png) left center no-repeat;background:url(../image/dot2.png) left center no-repeat\9;}
+.qs2 .item li::before{ content:""; position:absolute; width:5px; height:5px; background:#999; border-radius:50%; left:5px; top:50%; margin-top:-3px;}
+/* .qs2-bg{background: url(../image/q_bg.jpg) no-repeat;
+background-size: cover;
+    + background: none;
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
+              src='../image/q_bg.jpg',
+              sizingMethod='scale');
+} */
+/* .qs2-bg img{
+    display: none;
+    + display: block;
+} */
+/* IE8 */
+@media \0screen {
+    .qs2-bg{
+        background: #fafbf5;
+    }
+}
+.qs2 .searchbox{ padding-top:50px; padding-bottom:80px;}
+.searchbox .hd{height:43px; line-height:43px; background:url(../image/s_bg.png) no-repeat; padding-left:48px;}
+.icon-search{ width:18px; height:18px; background-position:-155px -74px; left:20px; top:50%; margin-top:-9px;}
+.slist li{ line-height:56px; padding-left:48px; background:url(../image/search.png) 5px center no-repeat; border-bottom:1px solid #d4dbdd;}
+/*infobox*/
+.qs2 .infobox{ padding-top:70px; padding-bottom:85px;}
+.qs2 .infobox .hd{ line-height:60px; font-size:28px; padding-left:48px; background:url(../image/search1.png) 3px center no-repeat;}
+.qs2 .infobox .bd{padding-left:48px; line-height:32px; background:url(../image/answer.png) 3px 2px no-repeat;}
+.qs2 .infobox .bd p,.qs2 .infobox .bd p span{font-size:16px!important;}
+.boxmore .item{ margin-top:0;}
+.boxmore .item1{padding:0; width:100%;}
+.boxmore .item1 h2{ border-color:#dfdfdf;}
+/*文件下载*/
+.pagedown .qs1{ height:232px; /*background:url(../image/downBg.jpg) center center no-repeat;*/}
+.downBg{width:100%; height:232px; left:0; top:0; z-index:-1; overflow:hidden;}
+.downBg img{width:100%; left:0; top:0; }
+.pagedown .qs1 h2{ margin-bottom:15px;}
+.downbox .litem{ float:left; display:inline; padding:0 15px; }
+.downbox .litem1{ width:500px; text-align:left;overflow:hidden;}
+.downbox .litem2{ width:105px; margin-right:35px; margin-left:10px;}
+.downbox .litem3{ width:110px;}
+.downbox .hd{ line-height:40px; background:#eeead7; border-top:1px solid #1a1a1a; border-bottom:1px solid #a1a2a5; margin-top:60px;}
+.downbox .bd li{line-height:48px; border-bottom:1px solid #cbcbcb; overflow:hidden;}
+.downbox .bd li:hover{ background:#f8f9fc;}
+.pagedown .qs2{ padding-bottom:80px;}
+/*帮助中心*/
+.helppage .qs1{ border:none;}
+.helppage .slideWrapper{ background:#b6a061; overflow:hidden;}
+.helppage  h3{ font-size:26px; color:#b29c5d; /*width:653px;*/}
+.helppage  h3 span,.helppage  h3 .title{width:80px; line-height:30px; padding:5px 0; background:#fff; border-radius:6px;}
+.helppage  h3 .title{width:auto; padding:5px 20px;font-size: 14px;}
+.slideBox{width:850px; height:650px;}
+.slideBox > span{width:56px; height:56px; border-radius:50%; overflow:hidden; position:absolute; top:50%; margin-top:-28px; cursor:pointer;}
+.slideBox > span em{position:absolute; left:0; top:0;width:56px; height:56px;background:#212832;filter:alpha(opacity=60);-moz-opacity:0.6;-khtml-opacity: 0.6; opacity: 0.6; z-index:0;}
+.icon-al,.icon-ar{ width:16px; height:24px; background-position:-9px -180px; left:50%; top:50%; margin:-12px 0 0 -8px; z-index:1;}
+.slideAl{ left:24px;}
+.slideAr{ right:24px;}
+.icon-ar{ background-position:-63px -180px;}
+.slideList{ left:0; top:0; min-width:2230px; height:650px; overflow:hidden;}
+.slideList li{ float:left; display:inline;width:850px; height:650px; margin-right:90px; overflow:hidden; zoom:1;}
+.slideList li img{ /*display:block; width:100%;*/max-width: 849px;display: inline-block;  vertical-align: middle;}
+.slideList li span{ display: inline-block; vertical-align: middle; width: 1px;height:650px;
+    overflow: hidden;}
+.helppage .slideWrapper .inner{ padding:34px 0 165px 0;}
+.slideWrapper .qs1{width:100%; height:111px; left:0; top:0; z-index:0;}
+.blur {	
+    filter: url(blur.svg#blur); /* FireFox, Chrome, Opera */
+    
+    -webkit-filter: blur(10px); /* Chrome, Opera */
+       -moz-filter: blur(10px);
+        -ms-filter: blur(10px);    
+            filter: blur(10px);
+    
+    filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius=10, MakeShadow=false); /* IE6~IE9 */
+}
+.icon-ab{
+	transition:all .1s;
+}
+.icon-ab.current{
+	background-position:-139px -83px;
+}
