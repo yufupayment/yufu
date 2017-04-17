@@ -73,8 +73,8 @@ background-size: cover;
 .slist li{ line-height:56px; padding-left:48px; background:url(../image/search.png) 5px center no-repeat; border-bottom:1px solid #d4dbdd;}
 /*infobox*/
 .qs2 .infobox{ padding-top:70px; padding-bottom:85px;}
-.qs2 .infobox .hd{ line-height:60px; font-size:28px; padding-left:48px; background:url(../image/search1.png) 3px center no-repeat;}
-.qs2 .infobox .bd{padding-left:48px; line-height:32px; background:url(../image/answer.png) 3px 2px no-repeat;}
+.qs2 .infobox .hd{ line-height:60px; font-size:28px; padding-left:48px; background:url(../img/search1.png) 3px center no-repeat;}
+.qs2 .infobox .bd{padding-left:48px; line-height:32px; background:url(../img/answer.png) 3px 2px no-repeat;}
 .qs2 .infobox .bd p,.qs2 .infobox .bd p span{font-size:16px!important;}
 .boxmore .item{ margin-top:0;}
 .boxmore .item1{padding:0; width:100%;}
