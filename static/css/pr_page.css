@@ -204,9 +204,10 @@ font-size:60px; color:#c2a564; text-align:center; line-height:54px; font-style:n
 	left:0;
 	top:0;
 	height:52px; z-index: 9999;display: none;
+	background: #fff;
 }
 .head-fixed .logo{
-	width:101px; margin-top: 8px;}
+	width:101px; margin-top: 12px;}
 .head-fixed .topHead{
 	display: none;}
 .head-fixed .headR{ margin-top: 0;}
