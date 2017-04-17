@@ -1,0 +1,65 @@
+/*涓棿鑳屾櫙*/
+.textbox{
+    color:white;
+    left: 50%;
+    top: 47%;
+    margin-left: -600px;
+    z-index: 1;
+}
+.textbox .text{
+    margin-right:88px;
+}
+.tel_num,.email_adr{
+    font-size:36px;
+    height:36px;
+    line-height:36px;
+}
+.tel,.email{
+    font-size:18px;
+    height:18px;
+    line-height:18px;
+}
+.tel_num{
+    margin-top:18px;
+}
+.email{
+    margin-top:38px;
+}
+.email_adr{
+    margin-top:14px;
+}
+
+.info{
+    height:370px;
+    padding:87px 0 171px;
+}
+.info_left,.info_center,.info_right{
+    width:300px;
+    padding-left:100px;
+    float:left;
+}
+.info h3{
+    color:#111;
+    font-size:18px;
+    height:18px;
+    line-height:18px;
+    margin: 26px 0;
+}
+.info div p{
+    line-height:26px;
+    font-size:14px;
+    color:#666;
+}
+
+.info div p .left{
+    float:left;
+    width:42px;
+}
+.info div p .right{
+    display: block;
+    margin-left:42px;
+    line-height:20px;
+    padding:3px 0;
+}
+
+

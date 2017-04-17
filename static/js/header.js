@@ -11,7 +11,7 @@ function headerFn(){
                     '<a class="fr topBtn ml-10" target="_blank" href="#" title="注册">注册</a>'+
                     '<a class="fr topBtn J-login" target="_blank" href="#" title="用户登录">用户登录</a>'+
                     '<ul class="fr font14">'+
-                        '<li><a class="aline a-tel iw" target="_blank" href="#" title="获取帮助"><i class="icon icon-tel"></i>获取帮助</a></li>'+
+                        '<li><a href="../../yufu/pages/abu_contactus.html" class="aline a-tel iw" target="_blank" href="#" title="获取帮助"><i class="icon icon-tel"></i>获取帮助</a></li>'+
                         '<li><a class="aline a-qq iw" target="_blank" href="#" title="在线客服"><i class="icon icon-qq"></i>在线客服</a></li>'+
                         '<li class="weixin"><a class="a-weixin iw" href="#"><i class="icon icon-weixin"></i>&nbsp;<img src="../static/img/ewm.png"> </a></li>'+
                         '<li class="last"><a class="a-weibo iw" target="_blank" href="#"><i class="icon icon-weibo"></i>&nbsp;</a></li>'+
@@ -19,7 +19,7 @@ function headerFn(){
                 '</div>'+
                 '<div class="nav font18 mt-20">'+
                     '<ul class="fr">'+
-                        '<li data-page="index"><a class="iw home" href="" title="首页"><i class="icon icon-home"></i>首页</a></li>'+
+                        '<li data-page="index"><a class="iw home" href="../../yufu/pages/index.html" title="首页"><i class="icon icon-home"></i>首页</a></li>'+
                         '<li class="pos_r" data-page="product">'+
                             '<a href="javascript:void(0)">产品服务</a>'+
                             '<div class="navmenu navbox1 pos_a">'+
@@ -29,8 +29,8 @@ function headerFn(){
                                         '<dt><a href="#">网络支付</a></dt>'+
                                         '<dd>'+
                                             '<ul class="font14 zoom menu-list1">'+
-                                                '<li><a href="#">企业网银支付</a></li>'+
-                                                '<li><a href="#">个人网银支付</a></li>'+
+                                                '<li><a href="../../yufu/pages/pr_netpay.html">企业网银支付</a></li>'+
+                                                '<li><a href="../../yufu/pages/pr_netpay.html">个人网银支付</a></li>'+
                                                 '<li><a href="#">批量付款</a></li>'+
                                                 '<li><a href="#">快捷支付</a></li>'+
                                                 '<li><a href="#">扫码支付</a></li>'+
@@ -43,7 +43,7 @@ function headerFn(){
                                         '<dt><a href="#">移动支付</a></dt>'+
                                         '<dd>'+
                                             '<ul class="font14 zoom menu-list1">'+
-                                                '<li><a href="#">移动支付插件</a></li>'+
+                                                '<li><a href="../../yufu/pages/pr_mobilepay.html">移动支付插件</a></li>'+
                                                 '<li><a href="#">裕福支付钱包</a></li>'+
                                                 '<li><a href="#">Wap网银支付</a></li>'+
                                                 '<li class="width100"><a href="#">商户移动管理平台</a></li>'+
@@ -56,7 +56,7 @@ function headerFn(){
                                         '<dt><a href="#">金融服务</a></dt>'+
                                         '<dd>'+
                                             '<ul class="font14 zoom">'+
-                                                '<li><a href="#">在线供应链融资服务</a></li>'+
+                                                '<li><a href="../../yufu/pages/pr_finance.html">在线供应链融资服务</a></li>'+
                                                 '<li><a href="#">贷后监控预警服务</a></li>'+
                                                 '<li><a href="#">数据融资授信服务</a></li>'+
                                             '</ul>'+
@@ -66,16 +66,16 @@ function headerFn(){
                             '</div>'+
                         '</li>'+
                         '<li class="pos_r" data-page="case"><a href="#">行业解决方案</a></li>'+
-                        '<li class="pos_r" data-page="safe"><a href="#">安全中心</a></li>'+
-                        '<li class="pos_r" data-page="service"><a href="#">客户服务</a></li>'+
+                        '<li class="pos_r" data-page="safe"><a href="../../yufu/pages/sa_safe.html">安全中心</a></li>'+
+                        '<li class="pos_r" data-page="service"><a href="../../yufu/pages/cus_company.html">客户服务</a></li>'+
                         '<li class="pos_r" data-page="aboutus"><a href="#">关于我们</a>'+
                             '<div class="navmenu navbox2 pos_a">'+
                                 '<i></i>'+
                                 '<div class="item">'+
                                     '<dl>'+
-                                        '<dt><a href="#">公司简介</a></dt>'+
-                                        '<dt><a href="#">大事记</a></dt>'+
-                                        '<dt><a href="#">合作伙伴</a></dt>'+
+                                        '<dt><a href="../../yufu/pages/ab_aboutus.html">公司简介</a></dt>'+
+                                        '<dt><a href="../../yufu/pages/ab_events.html">大事记</a></dt>'+
+                                        '<dt><a href="../../yufu/pages/ab_partners.html">合作伙伴</a></dt>'+
                                     '</dl>'+
                                 '</div>'+
                             '</div>'+
@@ -97,8 +97,8 @@ function headerFn(){
             '</div>'+
             '<div class="zoom">'+
                 '<div class="font16 footer1">'+
-                    '<a class="huib6" href="#">关于我们</a><em>|</em>'+
-                    '<a class="huib6" href="#">联系我们</a><em>|</em>'+
+                    '<a class="huib6" href="../../yufu/pages/ab_aboutus.html">关于我们</a><em>|</em>'+
+                    '<a class="huib6" href="../../yufu/pages/abu_contactus.html">联系我们</a><em>|</em>'+
                     '<a class="huib6" href="#">加盟合作</a><em>|</em>'+
                     '<a class="huib6" href="#">招聘信息</a><em>|</em>'+
                     '<a class="huib6" href="#">网站地图</a>'+

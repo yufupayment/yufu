@@ -1,0 +1,418 @@
+/*招聘信息*/
+:-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: #666;
+}
+::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: #666;
+}
+input:-ms-input-placeholder,
+textarea:-ms-input-placeholder {
+  color: #666;
+}
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+  color: #666;
+}
+.out-box {
+  z-index: 3;
+}
+.jobinfo {
+  height: 284px;
+}
+.jobinfoBg {
+  width: 100%;
+  height: 284px;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  overflow: hidden;
+}
+.jobinfo .conbox {
+  padding: 94px 0 46px 345px;
+}
+.jobinfo .conbox h2 {
+  font-size: 47px;
+  color: #fff;
+  margin-bottom: 28px;
+}
+.jobinfo .conbox dl {
+  height: 24px;
+  line-height: 24px;
+  font-size: 14px;
+  color: #fff;
+}
+.jobinfo .conbox dl a {
+  display: inline-block;
+  padding: 0 5px;
+  margin-left: 14px;
+  margin-top: 1px;
+  margin-bottom: 1px;
+  min-width: 42px;
+  height: 24px;
+  color: #fff;
+  text-align: center;
+}
+.jobinfo .conbox dl a.current,
+.jobinfo .conbox dl a:hover {
+  background-color: #388798;
+}
+.jobinfo .conbox .place {
+  margin-bottom: 10px;
+}
+.jobinfo .conbox .cate dd {
+  margin-left: 70px;
+  max-height: 52px;
+  overflow: hidden;
+  line-height: 24px;
+}
+.joblist {
+  min-width: 1200px;
+  background: #fff;
+}
+.joblist .inner {
+  margin-left: 350px;
+  padding: 57px 0 90px;
+}
+.joblist .inner h4 {
+  position: relative;
+  padding-left: 30px;
+  line-height: 60px;
+  height: 60px;
+  font-size: 16px;
+  color: #000000;
+}
+.joblist .inner h4 .icon-search {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  margin-top: -9px;
+  width: 18px;
+  height: 18px;
+  background: url(../image/job_icon.png) -170px -5px no-repeat;
+}
+.joblist .inner .litem {
+  float: left;
+  display: inline;
+}
+.joblist .inner .litem1 {
+  width: 300px;
+  text-align: left;
+  overflow: hidden;
+  padding-left: 50px;
+}
+.joblist .inner .litem2,
+.joblist .inner .litem3 {
+  width: 154px;
+  /*margin: 0 66px;*/
+}
+.joblist .inner .litem4 {
+  width: 190px;
+}
+.joblist .inner .hd {
+  line-height: 40px;
+  background: #eeead7;
+  border-top: 1px solid #1a1a1a;
+  border-bottom: 1px solid #a1a2a5;
+}
+.joblist .inner .bd li {
+  line-height: 48px;
+  border-bottom: 1px solid #cbcbcb;
+  overflow: hidden;
+}
+.joblist .inner .bd li a {
+  color: #666;
+}
+.joblist .inner .bd li a:visited div {
+  color: #c2c2c2;
+}
+.joblist .inner .bd li a:hover {
+  background: #f8f9fc;
+}
+.joblist .inner .bd li a:hover .dec {
+  text-decoration: underline;
+}
+.joblist .inner .bd li .hot {
+  background: url(../image/hot_easyicon.jpg) 25px center no-repeat;
+}
+/*招聘详情*/
+.jobdetail {
+  min-width: 1200px;
+  background: #fff;
+}
+.jobdetail .inner {
+  margin-left: 350px;
+  padding: 65px 0 173px;
+  color: #000;
+}
+.jobdetail .inner h3 {
+  line-height: 64px;
+  border-bottom: 1px solid #1a1a1a;
+  font-size: 28px;
+}
+.jobdetail .inner .list1 {
+  padding-top: 32px;
+}
+.jobdetail .inner .list1 li {
+  line-height: 43px;
+  font-size: 16px;
+  border-bottom: 1px solid #dfdfdf;
+}
+.jobdetail .inner .list1 li span {
+  display: inline-block;
+}
+.jobdetail .inner .list1 li .col1 {
+  width: 271px;
+}
+.jobdetail .inner .list1 li .col2 {
+  width: 277px;
+}
+.jobdetail .inner h4 {
+  margin-top: 45px;
+  font-size: 18px;
+  line-height: 54px;
+  border-bottom: 1px solid #1a1a1a;
+}
+.jobdetail .inner .list2,
+.jobdetail .inner .list3 {
+  margin-top: 28px;
+  line-height: 36px;
+  font-size: 16px;
+}
+.jobdetail .inner .list2 li,
+.jobdetail .inner .list3 li {
+  zoom: 1;
+}
+.jobdetail .inner .list2 span,
+.jobdetail .inner .list3 span {
+  display: none;
+  width: 20px;
+  float: left;
+}
+.jobdetail .inner .list2 p,
+.jobdetail .inner .list3 p {
+  width: auto;
+  /*margin-left: 20px;*/
+  overflow: hidden;
+}
+.jobdetail .inner .qua {
+  margin-top: 26px;
+}
+.jobdetail .inner .btn {
+  display: block;
+  position: relative;
+  z-index: 1;
+  margin: 72px auto 0;
+  width: 262px;
+  height: 54px;
+  color: #fff;
+  font-size: 24px;
+  text-align: center;
+  line-height: 54px;
+}
+.jobdetail .inner .btn .before {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -2;
+  width: 262px;
+  height: 54px;
+  background: #ac8538;
+  opacity: .6;
+  filter: alpha(opacity=60);
+}
+.jobdetail .inner .btn .after {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  width: 0;
+  height: 54px;
+  background: #ac8538;
+  -webkit-transition: width .3s;
+          transition: width .3s;
+}
+.jobdetail .inner .btn:hover .after {
+  width: 262px;
+}
+/*招聘弹框*/
+
+.dialog {
+  width: 457px;
+  height: 207px;
+  background: #fff;
+}
+.dialog .con {
+  margin: 5px 0 0 80px;
+  padding-left: 86px;
+  background: url(../image/job_icon.png) -12px -91px no-repeat;
+}
+.dialog .con p {
+  line-height: 28px;
+  color: #000;
+  font-size: 18px;
+}
+.dialog .con .email {
+  color: #ac8538;
+  line-height: 40px;
+  font-size: 20px;
+}
+
+/*办公环境*/
+.jobhj .wrapper {
+  z-index: 11;
+}
+.jobhj .banner li {
+  float: left;
+}
+.jobhj .banner li img {
+  display: block;
+  width: 100%;
+}
+.jobhj .slideAl {
+  position: absolute;
+  top: 50%;
+  left: 4%;
+  display: block;
+  width: 44px;
+  height: 79px;
+  margin-top: -39px;
+  background: url(../image/job_icon.png) -5px top;
+}
+.jobhj .slideAr {
+  position: absolute;
+  right: 4%;
+  top: 50%;
+  display: block;
+  width: 44px;
+  height: 79px;
+  margin-top: -39px;
+  background: url(../image/job_icon.png) -57px top;
+}
+.jobhj .conbox {
+  right: 0;
+  bottom: 14%;
+  width: 649px;
+  height: 70px;
+  padding: 35px 0;
+  z-index: 11;
+}
+.jobhj .conbox .back {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -2;
+  width: 100%;
+  height: 140px;
+  background: #000;
+  opacity: .7;
+  filter: alpha(opacity=70);
+}
+.jobhj .conbox dt {
+  width: 135px;
+  border-right: 1px solid #fff;
+  color: #666;
+  font-size: 35px;
+  text-align: center;
+  line-height: 70px;
+}
+.jobhj .conbox dd {
+  padding-left: 27px;
+}
+.jobhj .conbox dd h4 {
+  line-height: 32px;
+  font-size: 32px;
+  color: #fff;
+}
+.jobhj .conbox dd p {
+  margin-top: 24px;
+  font-size: 16px;
+  line-height: 16px;
+  color: #999999;
+}
+/*员工福利*/
+.job-fl {
+  height: 311px;
+}
+.job-fl .fl-bg {
+  width: 100%;
+  height: 311px;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  overflow: hidden;
+}
+.job-fl .conbox {
+  padding: 178px 0 0 345px;
+}
+.job-fl .conbox h2 {
+  font-size: 47px;
+  color: #fff;
+}
+.fl-con {
+  min-width: 1200px;
+  background: #fff;
+}
+.fl-con .inner {
+  margin-left: 350px;
+}
+.fl-con .inner h3 {
+  border-bottom: 1px solid #dfdfdf;
+  font-size: 28px;
+  color: #000;
+}
+.fl-con .inner li {
+  padding-left: 30px;
+  background: url(../image/fuli_icon.png) left center no-repeat;
+  font-size: 16px;
+  color: #000;
+}
+.fl-con .inner .salary-fl {
+  margin-top: 60px;
+  height: 200px;
+}
+.fl-con .inner .salary-fl h3 {
+  line-height: 62px;
+}
+.fl-con .inner .salary-fl ul {
+  margin-top: 37px;
+}
+.fl-con .inner .salary-fl ul li {
+  float: left;
+  display: inline;
+  margin-right: 40px;
+  line-height: 20px;
+}
+.fl-con .inner .jintie-fl,.fl-con .inner .hnair-fl {
+  height: 200px;
+}
+.fl-con .inner .jintie-fl h3,.fl-con .inner .hnair-fl h3 {
+  line-height: 69px;
+}
+.fl-con .inner .jintie-fl ul,.fl-con .inner .hnair-fl ul {
+  margin-top: 22px;
+}
+.fl-con .inner .jintie-fl ul li,.fl-con .inner .hnair-fl li {
+  line-height: 50px;
+}
+.fl-con .inner .other-fl {
+  height: 258px;
+}
+.fl-con .inner .other-fl h3 {
+  line-height: 68px;
+}
+.fl-con .inner .other-fl ul {
+  margin-top: 48px;
+}
+.fl-con .inner .other-fl ul li {
+  float: left;
+  display: inline;
+  padding-left: 20px;
+  margin-right: 25px;
+  line-height: 20px;
+}
+.fl-con .inner .other-fl ul .no-margin {
+  margin: 0;
+}
