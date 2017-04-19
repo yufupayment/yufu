@@ -157,6 +157,7 @@
 /*关于我们 zhangmei 2016-11-7*/
 .aboutbox {
     padding: 75px 100px 100px 0;
+    border-top:1px solid #eee ;
 }
 
 .aboutbox h2 {

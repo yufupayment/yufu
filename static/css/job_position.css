@@ -278,7 +278,7 @@ textarea::-webkit-input-placeholder {
   width: 44px;
   height: 79px;
   margin-top: -39px;
-  background: url(../img/job_icon.png) -5px top;
+  background: url(../image/job_icon.png) -5px top;
 }
 .jobhj .slideAr {
   position: absolute;
@@ -288,7 +288,7 @@ textarea::-webkit-input-placeholder {
   width: 44px;
   height: 79px;
   margin-top: -39px;
-  background: url(../img/job_icon.png) -57px top;
+  background: url(../image/job_icon.png) -57px top;
 }
 .jobhj .conbox {
   right: 0;

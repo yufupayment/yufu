@@ -99,9 +99,10 @@ function headerFn(){
                 '<div class="font16 footer1">'+
                     '<a class="huib6" href="../../yufu/pages/ab_aboutus.html">关于我们</a><em>|</em>'+
                     '<a class="huib6" href="../../yufu/pages/abu_contactus.html">联系我们</a><em>|</em>'+
-                    '<a class="huib6" href="#">加盟合作</a><em>|</em>'+
-                    '<a class="huib6" href="#">招聘信息</a><em>|</em>'+
-                    '<a class="huib6" href="#">网站地图</a>'+
+                    '<a class="huib6" href="../../yufu/pages/BusiJoin.html">加盟合作</a><em>|</em>'+
+                    '<a class="huib6" href="../../yufu/pages/job_center.html">招聘信息</a><em>|</em>'+
+                    '<a class="huib6" href="../../yufu/pages/map.html">网站地图</a><em>|</em>'+
+                    '<a class="huib6" href="../../yufu/pages/agreement.html">服务协议</a>'+
                 '</div>'+
                 '<div class="footer2 mt-15">'+
 				    '联系地址：北京市朝阳区光华里丙17号  客户咨询电话：010-65305555<br/>'+
